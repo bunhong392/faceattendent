@@ -303,3 +303,5 @@ identity verification.
   to stop someone holding up a photo or video of the enrolled user.
 - Enable Firebase App Check to ensure only your app's builds can write to
   the database.
+
+  Sonar Sonar
