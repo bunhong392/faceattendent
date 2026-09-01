@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427099065",
+    "firebase_url": "https://faceattendent-44790-default-rtdb.firebaseio.com",
+    "project_id": "faceattendent-44790",
+    "storage_bucket": "faceattendent-44790.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427099065:android:a4d8f82ec9ce39e8e46c68",
+        "android_client_info": {
+          "package_name": "com.example.face_attendent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427099065-huqhrvfdq10ct7io3qucle1flf795t3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhcsCrvpBrsQbQAnWPN7MYzsUo1p1q5TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427099065-huqhrvfdq10ct7io3qucle1flf795t3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

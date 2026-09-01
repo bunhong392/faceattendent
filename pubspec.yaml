@@ -1,0 +1,49 @@
+name: face_attendance_app
+description: Face Recognition Attendance App for schools and workplaces
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  provider: ^6.1.1
+
+  # Camera & face detection
+  camera: ^0.10.5+9
+  google_mlkit_face_detection: ^0.10.0
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  firebase_database: ^11.1.4
+
+  # GPS location validation (geofencing against schedule locations)
+  geolocator: ^13.0.1
+
+  # Device validation (binds a user's face check-in to their enrollment device)
+  device_info_plus: ^11.1.1
+
+  # Admin "call employee" action (tel: links)
+  url_launcher: ^6.3.1
+
+  # Cloudinary (unsigned upload via REST API)
+  http: ^1.2.2
+
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  fl_chart: ^0.66.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
